@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_1 " />
+            <top_module name="arch_package" />
+            <top_module name="glbl" />
+            <top_module name="proj_package" />
+            <top_module name="tb" />
+            <top_module name="tb_type_defines_pkg" />
+            <top_module name="test_dram_dma" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="51426000000fs"></ZoomStartTime>
+      <ZoomEndTime time="51702000001fs"></ZoomEndTime>
+      <Cursor1Time time="51472000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="269"></NameColumnWidth>
+      <ValueColumnWidth column_width="160"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/clk_core">
+      <obj_property name="ElementShortName">clk_core</obj_property>
+      <obj_property name="ObjectShortName">clk_core</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/h2c_dma_started">
+      <obj_property name="ElementShortName">h2c_dma_started[3:0]</obj_property>
+      <obj_property name="ObjectShortName">h2c_dma_started[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_dma_pcis_awready">
+      <obj_property name="ElementShortName">cl_sh_dma_pcis_awready[0:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_dma_pcis_awready[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_wvalid">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_wvalid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_wvalid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_awaddr">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_awaddr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_awaddr[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_awid">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_awid[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_awid[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_awlen">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_awsize">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_awsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_awvalid">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_awvalid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_awvalid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_wdata">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_wdata[511:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_wdata[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_wstrb">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_wstrb[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_wstrb[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_wvalid">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_wvalid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_wvalid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_wlast">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_wlast[0:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_wlast[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider15" type="divider">
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_araddr">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_araddr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_araddr[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_arid">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_arid[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_arid[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_arlen">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_arsize">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_arsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_arvalid">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_arvalid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_arvalid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_dma_pcis_arready">
+      <obj_property name="ElementShortName">cl_sh_dma_pcis_arready[0:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_dma_pcis_arready[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_dma_pcis_rid">
+      <obj_property name="ElementShortName">cl_sh_dma_pcis_rid[5:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_dma_pcis_rid[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_dma_pcis_rdata">
+      <obj_property name="ElementShortName">cl_sh_dma_pcis_rdata[511:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_dma_pcis_rdata[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_dma_pcis_rresp">
+      <obj_property name="ElementShortName">cl_sh_dma_pcis_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_dma_pcis_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_dma_pcis_rlast">
+      <obj_property name="ElementShortName">cl_sh_dma_pcis_rlast[0:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_dma_pcis_rlast[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_dma_pcis_rvalid">
+      <obj_property name="ElementShortName">cl_sh_dma_pcis_rvalid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_dma_pcis_rvalid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/sh_cl_dma_pcis_rready">
+      <obj_property name="ElementShortName">sh_cl_dma_pcis_rready[0:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_cl_dma_pcis_rready[0:0]</obj_property>
+   </wvobject>
+</wave_config>

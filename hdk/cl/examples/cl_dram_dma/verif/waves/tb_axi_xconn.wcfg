@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_1 " />
+            <top_module name="arch_package" />
+            <top_module name="glbl" />
+            <top_module name="proj_package" />
+            <top_module name="tb" />
+            <top_module name="tb_type_defines_pkg" />
+            <top_module name="test_dram_dma" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="32290000000fs"></ZoomStartTime>
+      <ZoomEndTime time="35185000001fs"></ZoomEndTime>
+      <Cursor1Time time="32980000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="269"></NameColumnWidth>
+      <ValueColumnWidth column_width="133"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="group" fp_name="group233">
+      <obj_property name="label">M00</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_araddr">
+         <obj_property name="ElementShortName">M00_AXI_araddr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_araddr[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_arburst">
+         <obj_property name="ElementShortName">M00_AXI_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_arcache">
+         <obj_property name="ElementShortName">M00_AXI_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_arid">
+         <obj_property name="ElementShortName">M00_AXI_arid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_arid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_arlen">
+         <obj_property name="ElementShortName">M00_AXI_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_arlock">
+         <obj_property name="ElementShortName">M00_AXI_arlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_arlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_arprot">
+         <obj_property name="ElementShortName">M00_AXI_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_arqos">
+         <obj_property name="ElementShortName">M00_AXI_arqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_arqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_arready">
+         <obj_property name="ElementShortName">M00_AXI_arready</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_arready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_arregion">
+         <obj_property name="ElementShortName">M00_AXI_arregion[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_arregion[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_arsize">
+         <obj_property name="ElementShortName">M00_AXI_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_arvalid">
+         <obj_property name="ElementShortName">M00_AXI_arvalid</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_awaddr">
+         <obj_property name="ElementShortName">M00_AXI_awaddr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awaddr[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_awburst">
+         <obj_property name="ElementShortName">M00_AXI_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_awcache">
+         <obj_property name="ElementShortName">M00_AXI_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_awid">
+         <obj_property name="ElementShortName">M00_AXI_awid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_awlen">
+         <obj_property name="ElementShortName">M00_AXI_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_awlock">
+         <obj_property name="ElementShortName">M00_AXI_awlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_awprot">
+         <obj_property name="ElementShortName">M00_AXI_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_awqos">
+         <obj_property name="ElementShortName">M00_AXI_awqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_awready">
+         <obj_property name="ElementShortName">M00_AXI_awready</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_awregion">
+         <obj_property name="ElementShortName">M00_AXI_awregion[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awregion[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_awsize">
+         <obj_property name="ElementShortName">M00_AXI_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_awvalid">
+         <obj_property name="ElementShortName">M00_AXI_awvalid</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_bid">
+         <obj_property name="ElementShortName">M00_AXI_bid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_bid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_bready">
+         <obj_property name="ElementShortName">M00_AXI_bready</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_bready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_bresp">
+         <obj_property name="ElementShortName">M00_AXI_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_bvalid">
+         <obj_property name="ElementShortName">M00_AXI_bvalid</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_bvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_rdata">
+         <obj_property name="ElementShortName">M00_AXI_rdata[511:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_rdata[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_rid">
+         <obj_property name="ElementShortName">M00_AXI_rid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_rid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_rlast">
+         <obj_property name="ElementShortName">M00_AXI_rlast</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_rlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_rready">
+         <obj_property name="ElementShortName">M00_AXI_rready</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_rready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_rresp">
+         <obj_property name="ElementShortName">M00_AXI_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_rvalid">
+         <obj_property name="ElementShortName">M00_AXI_rvalid</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_wdata">
+         <obj_property name="ElementShortName">M00_AXI_wdata[511:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_wdata[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_wlast">
+         <obj_property name="ElementShortName">M00_AXI_wlast</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_wlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_wready">
+         <obj_property name="ElementShortName">M00_AXI_wready</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_wready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_wstrb">
+         <obj_property name="ElementShortName">M00_AXI_wstrb[63:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_wstrb[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M00_AXI_wvalid">
+         <obj_property name="ElementShortName">M00_AXI_wvalid</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_wvalid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group273">
+      <obj_property name="label">M01</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_araddr">
+         <obj_property name="ElementShortName">M01_AXI_araddr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_araddr[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_arburst">
+         <obj_property name="ElementShortName">M01_AXI_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_arcache">
+         <obj_property name="ElementShortName">M01_AXI_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_arid">
+         <obj_property name="ElementShortName">M01_AXI_arid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_arid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_arlen">
+         <obj_property name="ElementShortName">M01_AXI_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_arlock">
+         <obj_property name="ElementShortName">M01_AXI_arlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_arlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_arprot">
+         <obj_property name="ElementShortName">M01_AXI_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_arqos">
+         <obj_property name="ElementShortName">M01_AXI_arqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_arqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_arready">
+         <obj_property name="ElementShortName">M01_AXI_arready</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_arready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_arregion">
+         <obj_property name="ElementShortName">M01_AXI_arregion[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_arregion[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_arsize">
+         <obj_property name="ElementShortName">M01_AXI_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_arvalid">
+         <obj_property name="ElementShortName">M01_AXI_arvalid</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_awaddr">
+         <obj_property name="ElementShortName">M01_AXI_awaddr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_awaddr[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_awburst">
+         <obj_property name="ElementShortName">M01_AXI_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_awcache">
+         <obj_property name="ElementShortName">M01_AXI_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_awid">
+         <obj_property name="ElementShortName">M01_AXI_awid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_awid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_awlen">
+         <obj_property name="ElementShortName">M01_AXI_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_awlock">
+         <obj_property name="ElementShortName">M01_AXI_awlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_awlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_awprot">
+         <obj_property name="ElementShortName">M01_AXI_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_awqos">
+         <obj_property name="ElementShortName">M01_AXI_awqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_awqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_awready">
+         <obj_property name="ElementShortName">M01_AXI_awready</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_awready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_awregion">
+         <obj_property name="ElementShortName">M01_AXI_awregion[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_awregion[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_awsize">
+         <obj_property name="ElementShortName">M01_AXI_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_awvalid">
+         <obj_property name="ElementShortName">M01_AXI_awvalid</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_awvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_bid">
+         <obj_property name="ElementShortName">M01_AXI_bid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_bid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_bready">
+         <obj_property name="ElementShortName">M01_AXI_bready</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_bready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_bresp">
+         <obj_property name="ElementShortName">M01_AXI_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_bvalid">
+         <obj_property name="ElementShortName">M01_AXI_bvalid</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_bvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_rdata">
+         <obj_property name="ElementShortName">M01_AXI_rdata[511:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_rdata[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_rid">
+         <obj_property name="ElementShortName">M01_AXI_rid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_rid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_rlast">
+         <obj_property name="ElementShortName">M01_AXI_rlast</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_rlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_rready">
+         <obj_property name="ElementShortName">M01_AXI_rready</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_rready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_rresp">
+         <obj_property name="ElementShortName">M01_AXI_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_rvalid">
+         <obj_property name="ElementShortName">M01_AXI_rvalid</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_wdata">
+         <obj_property name="ElementShortName">M01_AXI_wdata[511:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_wdata[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_wlast">
+         <obj_property name="ElementShortName">M01_AXI_wlast</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_wlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_wready">
+         <obj_property name="ElementShortName">M01_AXI_wready</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_wready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_wstrb">
+         <obj_property name="ElementShortName">M01_AXI_wstrb[63:0]</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_wstrb[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M01_AXI_wvalid">
+         <obj_property name="ElementShortName">M01_AXI_wvalid</obj_property>
+         <obj_property name="ObjectShortName">M01_AXI_wvalid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group313">
+      <obj_property name="label">M02</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_araddr">
+         <obj_property name="ElementShortName">M02_AXI_araddr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_araddr[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_arburst">
+         <obj_property name="ElementShortName">M02_AXI_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_arcache">
+         <obj_property name="ElementShortName">M02_AXI_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_arid">
+         <obj_property name="ElementShortName">M02_AXI_arid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_arid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_arlen">
+         <obj_property name="ElementShortName">M02_AXI_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_arlock">
+         <obj_property name="ElementShortName">M02_AXI_arlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_arlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_arprot">
+         <obj_property name="ElementShortName">M02_AXI_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_arqos">
+         <obj_property name="ElementShortName">M02_AXI_arqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_arqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_arready">
+         <obj_property name="ElementShortName">M02_AXI_arready</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_arready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_arregion">
+         <obj_property name="ElementShortName">M02_AXI_arregion[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_arregion[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_arsize">
+         <obj_property name="ElementShortName">M02_AXI_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_arvalid">
+         <obj_property name="ElementShortName">M02_AXI_arvalid</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_awaddr">
+         <obj_property name="ElementShortName">M02_AXI_awaddr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_awaddr[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_awburst">
+         <obj_property name="ElementShortName">M02_AXI_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_awcache">
+         <obj_property name="ElementShortName">M02_AXI_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_awid">
+         <obj_property name="ElementShortName">M02_AXI_awid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_awid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_awlen">
+         <obj_property name="ElementShortName">M02_AXI_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_awlock">
+         <obj_property name="ElementShortName">M02_AXI_awlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_awlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_awprot">
+         <obj_property name="ElementShortName">M02_AXI_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_awqos">
+         <obj_property name="ElementShortName">M02_AXI_awqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_awqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_awready">
+         <obj_property name="ElementShortName">M02_AXI_awready</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_awready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_awregion">
+         <obj_property name="ElementShortName">M02_AXI_awregion[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_awregion[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_awsize">
+         <obj_property name="ElementShortName">M02_AXI_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_awvalid">
+         <obj_property name="ElementShortName">M02_AXI_awvalid</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_awvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_bid">
+         <obj_property name="ElementShortName">M02_AXI_bid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_bid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_bready">
+         <obj_property name="ElementShortName">M02_AXI_bready</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_bready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_bresp">
+         <obj_property name="ElementShortName">M02_AXI_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_bvalid">
+         <obj_property name="ElementShortName">M02_AXI_bvalid</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_bvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_rdata">
+         <obj_property name="ElementShortName">M02_AXI_rdata[511:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_rdata[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_rid">
+         <obj_property name="ElementShortName">M02_AXI_rid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_rid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_rlast">
+         <obj_property name="ElementShortName">M02_AXI_rlast</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_rlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_rready">
+         <obj_property name="ElementShortName">M02_AXI_rready</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_rready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_rresp">
+         <obj_property name="ElementShortName">M02_AXI_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_rvalid">
+         <obj_property name="ElementShortName">M02_AXI_rvalid</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_wdata">
+         <obj_property name="ElementShortName">M02_AXI_wdata[511:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_wdata[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_wlast">
+         <obj_property name="ElementShortName">M02_AXI_wlast</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_wlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_wready">
+         <obj_property name="ElementShortName">M02_AXI_wready</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_wready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_wstrb">
+         <obj_property name="ElementShortName">M02_AXI_wstrb[63:0]</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_wstrb[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M02_AXI_wvalid">
+         <obj_property name="ElementShortName">M02_AXI_wvalid</obj_property>
+         <obj_property name="ObjectShortName">M02_AXI_wvalid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group353">
+      <obj_property name="label">M03</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_araddr">
+         <obj_property name="ElementShortName">M03_AXI_araddr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_araddr[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_arburst">
+         <obj_property name="ElementShortName">M03_AXI_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_arcache">
+         <obj_property name="ElementShortName">M03_AXI_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_arid">
+         <obj_property name="ElementShortName">M03_AXI_arid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_arid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_arlen">
+         <obj_property name="ElementShortName">M03_AXI_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_arlock">
+         <obj_property name="ElementShortName">M03_AXI_arlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_arlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_arprot">
+         <obj_property name="ElementShortName">M03_AXI_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_arqos">
+         <obj_property name="ElementShortName">M03_AXI_arqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_arqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_arready">
+         <obj_property name="ElementShortName">M03_AXI_arready</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_arready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_arregion">
+         <obj_property name="ElementShortName">M03_AXI_arregion[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_arregion[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_arsize">
+         <obj_property name="ElementShortName">M03_AXI_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_arvalid">
+         <obj_property name="ElementShortName">M03_AXI_arvalid</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_awaddr">
+         <obj_property name="ElementShortName">M03_AXI_awaddr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_awaddr[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_awburst">
+         <obj_property name="ElementShortName">M03_AXI_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_awcache">
+         <obj_property name="ElementShortName">M03_AXI_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_awid">
+         <obj_property name="ElementShortName">M03_AXI_awid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_awid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_awlen">
+         <obj_property name="ElementShortName">M03_AXI_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_awlock">
+         <obj_property name="ElementShortName">M03_AXI_awlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_awlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_awprot">
+         <obj_property name="ElementShortName">M03_AXI_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_awqos">
+         <obj_property name="ElementShortName">M03_AXI_awqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_awqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_awready">
+         <obj_property name="ElementShortName">M03_AXI_awready</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_awready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_awregion">
+         <obj_property name="ElementShortName">M03_AXI_awregion[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_awregion[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_awsize">
+         <obj_property name="ElementShortName">M03_AXI_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_awvalid">
+         <obj_property name="ElementShortName">M03_AXI_awvalid</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_awvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_bid">
+         <obj_property name="ElementShortName">M03_AXI_bid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_bid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_bready">
+         <obj_property name="ElementShortName">M03_AXI_bready</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_bready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_bresp">
+         <obj_property name="ElementShortName">M03_AXI_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_bvalid">
+         <obj_property name="ElementShortName">M03_AXI_bvalid</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_bvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_rdata">
+         <obj_property name="ElementShortName">M03_AXI_rdata[511:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_rdata[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_rid">
+         <obj_property name="ElementShortName">M03_AXI_rid[6:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_rid[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_rlast">
+         <obj_property name="ElementShortName">M03_AXI_rlast</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_rlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_rready">
+         <obj_property name="ElementShortName">M03_AXI_rready</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_rready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_rresp">
+         <obj_property name="ElementShortName">M03_AXI_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_rvalid">
+         <obj_property name="ElementShortName">M03_AXI_rvalid</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_wdata">
+         <obj_property name="ElementShortName">M03_AXI_wdata[511:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_wdata[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_wlast">
+         <obj_property name="ElementShortName">M03_AXI_wlast</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_wlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_wready">
+         <obj_property name="ElementShortName">M03_AXI_wready</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_wready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_wstrb">
+         <obj_property name="ElementShortName">M03_AXI_wstrb[63:0]</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_wstrb[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/M03_AXI_wvalid">
+         <obj_property name="ElementShortName">M03_AXI_wvalid</obj_property>
+         <obj_property name="ObjectShortName">M03_AXI_wvalid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group489">
+      <obj_property name="label">S00</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_araddr">
+         <obj_property name="ElementShortName">S00_AXI_araddr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_araddr[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_arburst">
+         <obj_property name="ElementShortName">S00_AXI_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_arcache">
+         <obj_property name="ElementShortName">S00_AXI_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_arid">
+         <obj_property name="ElementShortName">S00_AXI_arid[5:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_arid[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_arlen">
+         <obj_property name="ElementShortName">S00_AXI_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_arlock">
+         <obj_property name="ElementShortName">S00_AXI_arlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_arlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_arprot">
+         <obj_property name="ElementShortName">S00_AXI_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_arqos">
+         <obj_property name="ElementShortName">S00_AXI_arqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_arqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_arready">
+         <obj_property name="ElementShortName">S00_AXI_arready</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_arready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_arregion">
+         <obj_property name="ElementShortName">S00_AXI_arregion[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_arregion[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_arsize">
+         <obj_property name="ElementShortName">S00_AXI_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_arvalid">
+         <obj_property name="ElementShortName">S00_AXI_arvalid</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_awaddr">
+         <obj_property name="ElementShortName">S00_AXI_awaddr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awaddr[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_awburst">
+         <obj_property name="ElementShortName">S00_AXI_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_awcache">
+         <obj_property name="ElementShortName">S00_AXI_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_awid">
+         <obj_property name="ElementShortName">S00_AXI_awid[5:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awid[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_awlen">
+         <obj_property name="ElementShortName">S00_AXI_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_awlock">
+         <obj_property name="ElementShortName">S00_AXI_awlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_awprot">
+         <obj_property name="ElementShortName">S00_AXI_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_awqos">
+         <obj_property name="ElementShortName">S00_AXI_awqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_awready">
+         <obj_property name="ElementShortName">S00_AXI_awready</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_awregion">
+         <obj_property name="ElementShortName">S00_AXI_awregion[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awregion[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_awsize">
+         <obj_property name="ElementShortName">S00_AXI_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_awvalid">
+         <obj_property name="ElementShortName">S00_AXI_awvalid</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_bid">
+         <obj_property name="ElementShortName">S00_AXI_bid[5:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_bid[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_bready">
+         <obj_property name="ElementShortName">S00_AXI_bready</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_bready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_bresp">
+         <obj_property name="ElementShortName">S00_AXI_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_bvalid">
+         <obj_property name="ElementShortName">S00_AXI_bvalid</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_bvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_rdata">
+         <obj_property name="ElementShortName">S00_AXI_rdata[511:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_rdata[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_rid">
+         <obj_property name="ElementShortName">S00_AXI_rid[5:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_rid[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_rlast">
+         <obj_property name="ElementShortName">S00_AXI_rlast</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_rlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_rready">
+         <obj_property name="ElementShortName">S00_AXI_rready</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_rready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_rresp">
+         <obj_property name="ElementShortName">S00_AXI_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_rvalid">
+         <obj_property name="ElementShortName">S00_AXI_rvalid</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_wdata">
+         <obj_property name="ElementShortName">S00_AXI_wdata[511:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_wdata[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_wlast">
+         <obj_property name="ElementShortName">S00_AXI_wlast</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_wlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_wready">
+         <obj_property name="ElementShortName">S00_AXI_wready</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_wready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_wstrb">
+         <obj_property name="ElementShortName">S00_AXI_wstrb[63:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_wstrb[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S00_AXI_wvalid">
+         <obj_property name="ElementShortName">S00_AXI_wvalid</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_wvalid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group573">
+      <obj_property name="label">S01</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_araddr">
+         <obj_property name="ElementShortName">S01_AXI_araddr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_araddr[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_arburst">
+         <obj_property name="ElementShortName">S01_AXI_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_arcache">
+         <obj_property name="ElementShortName">S01_AXI_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_arid">
+         <obj_property name="ElementShortName">S01_AXI_arid[5:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_arid[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_arlen">
+         <obj_property name="ElementShortName">S01_AXI_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_arlock">
+         <obj_property name="ElementShortName">S01_AXI_arlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_arlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_arprot">
+         <obj_property name="ElementShortName">S01_AXI_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_arqos">
+         <obj_property name="ElementShortName">S01_AXI_arqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_arqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_arready">
+         <obj_property name="ElementShortName">S01_AXI_arready</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_arready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_arregion">
+         <obj_property name="ElementShortName">S01_AXI_arregion[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_arregion[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_arsize">
+         <obj_property name="ElementShortName">S01_AXI_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_arvalid">
+         <obj_property name="ElementShortName">S01_AXI_arvalid</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_awaddr">
+         <obj_property name="ElementShortName">S01_AXI_awaddr[63:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_awaddr[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_awburst">
+         <obj_property name="ElementShortName">S01_AXI_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_awcache">
+         <obj_property name="ElementShortName">S01_AXI_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_awid">
+         <obj_property name="ElementShortName">S01_AXI_awid[5:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_awid[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_awlen">
+         <obj_property name="ElementShortName">S01_AXI_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_awlock">
+         <obj_property name="ElementShortName">S01_AXI_awlock[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_awlock[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_awprot">
+         <obj_property name="ElementShortName">S01_AXI_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_awqos">
+         <obj_property name="ElementShortName">S01_AXI_awqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_awqos[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_awready">
+         <obj_property name="ElementShortName">S01_AXI_awready</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_awready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_awregion">
+         <obj_property name="ElementShortName">S01_AXI_awregion[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_awregion[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_awsize">
+         <obj_property name="ElementShortName">S01_AXI_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_awvalid">
+         <obj_property name="ElementShortName">S01_AXI_awvalid</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_awvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_bid">
+         <obj_property name="ElementShortName">S01_AXI_bid[5:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_bid[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_bready">
+         <obj_property name="ElementShortName">S01_AXI_bready</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_bready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_bresp">
+         <obj_property name="ElementShortName">S01_AXI_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_bvalid">
+         <obj_property name="ElementShortName">S01_AXI_bvalid</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_bvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_rdata">
+         <obj_property name="ElementShortName">S01_AXI_rdata[511:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_rdata[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_rid">
+         <obj_property name="ElementShortName">S01_AXI_rid[5:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_rid[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_rlast">
+         <obj_property name="ElementShortName">S01_AXI_rlast</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_rlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_rready">
+         <obj_property name="ElementShortName">S01_AXI_rready</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_rready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_rresp">
+         <obj_property name="ElementShortName">S01_AXI_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_rvalid">
+         <obj_property name="ElementShortName">S01_AXI_rvalid</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_wdata">
+         <obj_property name="ElementShortName">S01_AXI_wdata[511:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_wdata[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_wlast">
+         <obj_property name="ElementShortName">S01_AXI_wlast</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_wlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_wready">
+         <obj_property name="ElementShortName">S01_AXI_wready</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_wready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_wstrb">
+         <obj_property name="ElementShortName">S01_AXI_wstrb[63:0]</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_wstrb[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/S01_AXI_wvalid">
+         <obj_property name="ElementShortName">S01_AXI_wvalid</obj_property>
+         <obj_property name="ObjectShortName">S01_AXI_wvalid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/ACLK_1">
+      <obj_property name="ElementShortName">ACLK_1</obj_property>
+      <obj_property name="ObjectShortName">ACLK_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/CL_DMA_PCIS_SLV/AXI_CROSSBAR/ARESETN_1">
+      <obj_property name="ElementShortName">ARESETN_1</obj_property>
+      <obj_property name="ObjectShortName">ARESETN_1</obj_property>
+   </wvobject>
+</wave_config>

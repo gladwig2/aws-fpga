@@ -13,7 +13,8 @@
 # implied. See the License for the specific language governing permissions and
 # limitations under the License.
 
-
+$(info Entering scripts/Makefile)
+$(info TEST is $(TEST))
 export TEST ?= test_null
 export C_TEST ?= test_null
 
@@ -40,8 +41,11 @@ export SH_INF_DIR  = $(HDK_SHELL_DESIGN_DIR)/interfaces
 
 SV_TEST_LIST = test_dram_dma
 C_TEST_LIST  = test_peek_poke.c
+$(info SV_TEST_LIST is $(SV_TEST_LIST))
+$(info C_TEST_LIST is $(C_TEST_LIST))
 
 all:	make_sim_dir compile run
 
 include $(HDK_COMMON_DIR)/verif/tb/scripts/Makefile.common.inc
 
+$(info Exiting scripts/Makefile)

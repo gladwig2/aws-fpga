@@ -516,7 +516,7 @@ lib_pipe #(.WIDTH(1), .STAGES(4)) SLR2_PIPE_RST_N (.clk(aclk), .rst_n(1'b1), .in
          .slv_wvalid(cl_sh_ddr_q2.wvalid),
          .slv_wready(cl_sh_ddr_q2.wready),
 
-         .slv_bid(cl_sh_ddr_q2.bid[5:0]),
+         .slv_bid(cl_sh_ddr_q2.bid[5:0]), //6 bits used externally, only 5 driven
          .slv_bresp(cl_sh_ddr_q2.bresp),
          .slv_buser(),
          .slv_bvalid(cl_sh_ddr_q2.bvalid),
@@ -530,7 +530,7 @@ lib_pipe #(.WIDTH(1), .STAGES(4)) SLR2_PIPE_RST_N (.clk(aclk), .rst_n(1'b1), .in
          .slv_aruser(11'b0),
          .slv_arready(cl_sh_ddr_q2.arready),        
 
-         .slv_rid(cl_sh_ddr_q2.rid[5:0]),
+         .slv_rid(cl_sh_ddr_q2.rid[5:0]), //6 bits used externally , only 5 driven
          .slv_rdata(cl_sh_ddr_q2.rdata),
          .slv_rresp(cl_sh_ddr_q2.rresp),
          .slv_rlast(cl_sh_ddr_q2.rlast),
@@ -583,6 +583,10 @@ lib_pipe #(.WIDTH(1), .STAGES(4)) SLR2_PIPE_RST_N (.clk(aclk), .rst_n(1'b1), .in
          .scrb_dbg_state(ddrc_scrb_bus_q.state),
          .scrb_dbg_addr (ddrc_scrb_bus_q.addr)
    );
+   // add assign to drive undriven bits
+   assign cl_sh_ddr_q2.bid[15:6] = 0;
+   assign cl_sh_ddr_q2.rid[15:6] = 0;
+   
 
 //---------------------------- 
 // flop the output of ATG/Scrubber for DDRC 

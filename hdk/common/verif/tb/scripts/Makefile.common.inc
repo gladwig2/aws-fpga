@@ -13,6 +13,8 @@
 # implied. See the License for the specific language governing permissions and
 # limitations under the License.
 
+$(info Entering Makefile.common.inc)
+
 ifeq ($(QUESTA), 1)
   export SIMULATOR = questa
   export COMPLIB_DIR = $(CL_ROOT)/verif/sim/questa_complib
@@ -40,3 +42,6 @@ $(C_TEST_LIST):
 
 make_sim_dir:
 	mkdir -p $(SIM_ROOT)
+
+
+$(info Exiting Makefile.common.inc)

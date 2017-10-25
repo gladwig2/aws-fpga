@@ -13,6 +13,7 @@
 # implied. See the License for the specific language governing permissions and
 # limitations under the License.
 
+$(info Entering scripts/Makefile.vivado.inc)
 
 clean:
 	cd $(SIM_DIR) && rm -rf .Xil

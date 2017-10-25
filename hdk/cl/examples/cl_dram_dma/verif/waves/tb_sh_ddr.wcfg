@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_1 " />
+            <top_module name="arch_package" />
+            <top_module name="glbl" />
+            <top_module name="proj_package" />
+            <top_module name="tb" />
+            <top_module name="tb_type_defines_pkg" />
+            <top_module name="test_dram_dma" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="203881914901fs"></ZoomEndTime>
+      <Cursor1Time time="31828000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="269"></NameColumnWidth>
+      <ValueColumnWidth column_width="129"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/clk_main_a0">
+      <obj_property name="ElementShortName">clk_main_a0</obj_property>
+      <obj_property name="ObjectShortName">clk_main_a0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_ddr_awid">
+      <obj_property name="ElementShortName">cl_sh_ddr_awid[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_awid[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_ddr_awaddr">
+      <obj_property name="ElementShortName">cl_sh_ddr_awaddr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_awaddr[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_ddr_awlen">
+      <obj_property name="ElementShortName">cl_sh_ddr_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/cl_sh_ddr_awvalid">
+      <obj_property name="ElementShortName">cl_sh_ddr_awvalid</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_ddr_wid">
+      <obj_property name="ElementShortName">cl_sh_ddr_wid[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_wid[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_ddr_wdata">
+      <obj_property name="ElementShortName">cl_sh_ddr_wdata[511:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_wdata[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_ddr_wstrb">
+      <obj_property name="ElementShortName">cl_sh_ddr_wstrb[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_wstrb[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/cl_sh_ddr_wlast">
+      <obj_property name="ElementShortName">cl_sh_ddr_wlast</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_wlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/cl_sh_ddr_wvalid">
+      <obj_property name="ElementShortName">cl_sh_ddr_wvalid</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/cl_sh_ddr_bready">
+      <obj_property name="ElementShortName">cl_sh_ddr_bready</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_bready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_ddr_arid">
+      <obj_property name="ElementShortName">cl_sh_ddr_arid[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_arid[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_ddr_araddr">
+      <obj_property name="ElementShortName">cl_sh_ddr_araddr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_araddr[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/card/fpga/sh/cl_sh_ddr_arlen">
+      <obj_property name="ElementShortName">cl_sh_ddr_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/cl_sh_ddr_arvalid">
+      <obj_property name="ElementShortName">cl_sh_ddr_arvalid</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/sh/cl_sh_ddr_rready">
+      <obj_property name="ElementShortName">cl_sh_ddr_rready</obj_property>
+      <obj_property name="ObjectShortName">cl_sh_ddr_rready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/card/fpga/CL/clk_main_a0">
+      <obj_property name="ElementShortName">clk_main_a0</obj_property>
+      <obj_property name="ObjectShortName">clk_main_a0</obj_property>
+   </wvobject>
+</wave_config>

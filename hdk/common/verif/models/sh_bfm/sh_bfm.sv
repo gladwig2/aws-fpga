@@ -491,7 +491,7 @@ module sh_bfm #(
 
 
    initial begin
-      debug = 1'b0;
+      debug = 1'b1;
 /* TODO: Use the code below once plusarg support is enabled
       if ($test$plusargs("DEBUG")) begin
          debug = 1'b1;
@@ -655,7 +655,7 @@ module sh_bfm #(
          
          if (cl_sh_dma_pcis_awready && sh_cl_dma_pcis_awvalid) begin
             if (debug) begin
-               $display("[%t] : DEBUG popping cmd fifo - %d", $realtime, sh_cl_wr_cmds.size());
+               $display("[%t] : DEBUG popping wr cmd fifo - %d", $realtime, sh_cl_wr_cmds.size());
             end
             sh_cl_wr_cmds.pop_front();
          end
@@ -738,7 +738,7 @@ module sh_bfm #(
          
          if (cl_sh_dma_pcis_arready && sh_cl_dma_pcis_arvalid) begin
             if (debug) begin
-               $display("[%t] : DEBUG popping cmd fifo - %d", $realtime, sh_cl_rd_cmds.size());
+               $display("[%t] : DEBUG popping rd cmd fifo - %d", $realtime, sh_cl_rd_cmds.size());
             end
             sh_cl_rd_cmds.pop_front();
          end
